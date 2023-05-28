@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@300&display=swap');
+
+body {
+    width: 529.5px;
+    margin: 5% auto;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.calculator {
+    padding: 40px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    background-color: #EDE6DB;
+}
+
+.input {
+    border: 5px solid #24A19C;
+    border-radius: 50px;
+    height: 55px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 2.5rem;
+    background-color: #FAEEE7;
+
+
+}
+
+.input:hover {
+    border: 1px solid #bbb;
+    -webkit-box-shadow: inset 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.operators div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 50px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #A267AC;
+
+}
+
+.operators div:hover {
+    background-color: #ddd;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+}
+
+.operators div:active {
+    font-weight: bold;
+}
+
+.leftPanel {
+    display: inline-block;
+}
+
+.numbers div {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #D96098;
+
+}
+
+.numbers div:hover {
+    background-color: #FAEEE7;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #FAEEE7;
+}
+
+.numbers div:active {
+    font-weight: bold;
+}
+
+div.equal {
+    display: inline-block;
+    border: 1px solid #24A19C;
+    border-radius: 501px;
+    width: 17%;
+    text-align: center;
+    padding: 127px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: black;
+    background-color: #24A19C;
+    transition: all .2s ease-in-out;
+}
+
+div.equal:hover {
+    background-color: #FAEEE7;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #FAEEE7;
+}
+
+div.equal:active {
+    font-weight: bold;
+}
+
+body {
+    background-image: url('https://mforum.ist/media/75c7c5c4-7fd1-4887-adbc-819ea5fe3662-gif.18697/full');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
